@@ -7,7 +7,7 @@
 		"host": "ftp.rjshaver.host-ed.me",
 		"username": "rjshaver",  // or null for anonymous login
 		"password": "fzYv2w10J9",
-		"path": "/public_html",
+		"path": "/public_html/newsite",
 
 		"upload_on_save": true, // set *false* if you do not want to upload on save!
 
