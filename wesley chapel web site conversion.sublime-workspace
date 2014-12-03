@@ -79,7 +79,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 9153,
+				"buffer_size": 9173,
 				"line_ending": "Windows"
 			}
 		},
@@ -95,7 +95,7 @@
 			"file": "ministries.html",
 			"settings":
 			{
-				"buffer_size": 5886,
+				"buffer_size": 5878,
 				"line_ending": "Windows"
 			}
 		},
@@ -111,7 +111,7 @@
 			"file": "contact.html",
 			"settings":
 			{
-				"buffer_size": 3265,
+				"buffer_size": 3285,
 				"line_ending": "Windows"
 			}
 		},
@@ -143,7 +143,7 @@
 			"file": "calendar.html",
 			"settings":
 			{
-				"buffer_size": 1603,
+				"buffer_size": 1623,
 				"line_ending": "Windows"
 			}
 		},
@@ -501,7 +501,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 14,
 			"sheets":
 			[
 				{
@@ -639,6 +639,8 @@
 							"pyflakes_ignore_import_*": true,
 							"rulers":
 							[
+								12.9,
+								13.2
 							],
 							"sublimelinter": true,
 							"sublimelinter_delay": 2,
@@ -807,6 +809,8 @@
 							"pyflakes_ignore_import_*": true,
 							"rulers":
 							[
+								16.9,
+								17.2
 							],
 							"sublimelinter": true,
 							"sublimelinter_delay": 2,
@@ -975,6 +979,8 @@
 							"pyflakes_ignore_import_*": true,
 							"rulers":
 							[
+								8.9,
+								9.2
 							],
 							"sublimelinter": true,
 							"sublimelinter_delay": 2,
@@ -1143,6 +1149,8 @@
 							"pyflakes_ignore_import_*": true,
 							"rulers":
 							[
+								16.9,
+								17.2
 							],
 							"sublimelinter": true,
 							"sublimelinter_delay": 2,
@@ -1310,6 +1318,8 @@
 							"pyflakes_ignore_import_*": true,
 							"rulers":
 							[
+								-0.1,
+								0.2
 							],
 							"sublimelinter": true,
 							"sublimelinter_delay": 2,
@@ -1346,15 +1356,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 9153,
+						"buffer_size": 9173,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								283,
-								283
+								681,
+								681
 							]
 						],
 						"settings":
@@ -1476,8 +1486,8 @@
 							"pyflakes_ignore_import_*": true,
 							"rulers":
 							[
-								11.9,
-								12.2
+								4.9,
+								5.2
 							],
 							"sublimelinter": true,
 							"sublimelinter_delay": 2,
@@ -1647,6 +1657,8 @@
 							"pyflakes_ignore_import_*": true,
 							"rulers":
 							[
+								16.9,
+								17.2
 							],
 							"sublimelinter": true,
 							"sublimelinter_delay": 2,
@@ -1685,15 +1697,15 @@
 					"file": "ministries.html",
 					"settings":
 					{
-						"buffer_size": 5886,
+						"buffer_size": 5878,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3929,
-								3929
+								4768,
+								4768
 							]
 						],
 						"settings":
@@ -1815,8 +1827,6 @@
 							"pyflakes_ignore_import_*": true,
 							"rulers":
 							[
-								20.9,
-								21.2
 							],
 							"sublimelinter": true,
 							"sublimelinter_delay": 2,
@@ -1845,7 +1855,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1224.0,
+						"translation.y": 1368.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -2025,15 +2035,15 @@
 					"file": "contact.html",
 					"settings":
 					{
-						"buffer_size": 3265,
+						"buffer_size": 3285,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2672,
-								2672
+								969,
+								969
 							]
 						],
 						"settings":
@@ -2155,8 +2165,8 @@
 							"pyflakes_ignore_import_*": true,
 							"rulers":
 							[
-								2.9,
-								3.2
+								4.9,
+								5.2
 							],
 							"sublimelinter": true,
 							"sublimelinter_delay": 2,
@@ -2185,7 +2195,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 540.0,
+						"translation.y": 288.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -2703,15 +2713,15 @@
 					"file": "calendar.html",
 					"settings":
 					{
-						"buffer_size": 1603,
+						"buffer_size": 1623,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1168,
-								1168
+								645,
+								645
 							]
 						],
 						"settings":
@@ -2833,8 +2843,8 @@
 							"pyflakes_ignore_import_*": true,
 							"rulers":
 							[
-								-0.1,
-								0.2
+								4.9,
+								5.2
 							],
 							"sublimelinter": true,
 							"sublimelinter_delay": 2,
@@ -2880,8 +2890,8 @@
 						"selection":
 						[
 							[
-								72,
-								72
+								1255,
+								1255
 							]
 						],
 						"settings":
@@ -3003,8 +3013,8 @@
 							"pyflakes_ignore_import_*": true,
 							"rulers":
 							[
-								3.9,
-								4.2
+								42.9,
+								43.2
 							],
 							"sublimelinter": true,
 							"sublimelinter_delay": 2,
@@ -3033,7 +3043,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 90.0,
+						"translation.y": 666.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -3173,6 +3183,8 @@
 							"pyflakes_ignore_import_*": true,
 							"rulers":
 							[
+								4.9,
+								5.2
 							],
 							"sublimelinter": true,
 							"sublimelinter_delay": 2,

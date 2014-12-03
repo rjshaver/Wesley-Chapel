@@ -16,7 +16,7 @@
     position: relative;
     text-align: justify;
     left: 40px;
-    width: 880px;
+    width: 1085px;
 }
 a:link {
     color: blue;
@@ -37,4 +37,11 @@ a:visited {
 
 #corrections {
     background-color:#ED7BAB;
+}
+
+#header_iframe {
+      background-color: transparent;
+    border: 0px none transparent;
+    padding: 0px;
+    overflow: hidden;
 }
