@@ -7,10 +7,57 @@
     <meta name="description" content="Calendar for Wesley Chapel United Methodist Church">
     <link rel="shortcut icon" href="images/anicross-20141124-favicon.ico" >
     <style type="text/css">
-    
+      #calendar {
+        background-color: #FDE9D9;
+        position:relative;
+        left:10px;
+        text-align: center;
 
+      }
+       #responsive-wrapper {
+        width:100%;
+        margin 0 auto;
+    }
     </style>
     <link rel="stylesheet" type="text/css" href="css/WesleyStyleSheet.css">
+    <link rel='stylesheet' href='fullcalendar/fullcalendar.css' />
+    <script src='fullcalendar/lib/jquery.min.js'></script>
+    <script src='fullcalendar/lib/moment.min.js'></script>
+    <script src='fullcalendar/fullcalendar.js'></script>
+    <script type='text/javascript' src='fullcalendar/gcal.js'></script>
+
+
+
+      <script type='text/javascript'>
+
+$(document).ready(function() {
+    $('#calendar').fullCalendar({
+      theme: true,
+      header: {
+        left: 'prev,next today',
+        center: 'title',
+        right: 'month,agendaWeek,agendaDay'
+      },
+        googleCalendarApiKey: 'AIzaSyBeLSRSiymtxhR-KkRoa6I31rAtKs6zIeY',
+        events: {
+            googleCalendarId: 'rjoeshaver@gmail.com'
+        },
+        eventClick: function(event) {
+        // opens events in a popup window
+        window.open(event.url, 'gcalevent', 'width=700,height=600');
+        return false;
+      },
+      
+      loading: function(bool) {
+        $('#loading').toggle(bool);
+      },
+        eventBackgroundColor:'#0000ff',
+        eventTextColor:'#ffffff'
+
+    });
+});
+
+</script>
 </head>
 <body lang="en-us" >
   <!-- Page Container -->
@@ -34,10 +81,16 @@
       
 
     <!-- Calendar section taken from google -->
-    <header>
+    <!-- <header> 
+      eventColor:'#ff0000',
 
       <iframe class="pos_right"  src="https://www.google.com/calendar/embed?src=minister%40wesleychapelmethodist.org&ctz=America/New_York" style="border: 0;width:800px;height:600px" ></iframe>
-    </header>
+    </header> -->
+    <div id="responsive-wrapper">
+  <div id="calendar"></div>
+  </div>
+
+
 
     <!-- Footer section -->
     <footer>
