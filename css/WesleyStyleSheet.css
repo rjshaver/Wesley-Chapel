@@ -18,6 +18,12 @@
     left: 40px;
     width: 880px;
 }
+.pos_justifyinsidebluebox {
+    position: relative;
+    text-align: justify;
+    left: 40px;
+    width: 800px;
+}
 a:link {
     color: blue;
 }
