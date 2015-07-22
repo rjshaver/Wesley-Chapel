@@ -1,8 +1,9 @@
 ﻿body {
     background-color: #EBC2FF;
-	/*background-image: url("../images/mylittlepony.jpg");
-	background-repeat: repeat-y;
-	*/
+    /*background-image: url("../images/mylittlepony.jpg");
+    background-repeat: repeat-y;
+    */
+    
     margin: 0;
     padding: 0;
 }
@@ -37,13 +38,11 @@ a:visited {
     border: 0;
     overflow-y: hidden;
 }
-
 #corrections {
-    background-color:#ED7BAB;
+    background-color: #ED7BAB;
 }
-
 #header_iframe {
-      background-color: transparent;
+    background-color: transparent;
     border: 0px none transparent;
     padding: 0px;
     overflow: hidden;
