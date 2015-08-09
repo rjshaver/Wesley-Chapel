@@ -1,5 +1,9 @@
 ﻿body {
-    background-color: #FDE9D9;
+    background-color: #66A3FF;
+    /*background-image: url("../images/mylittlepony.jpg");
+    background-repeat: repeat-y;
+    */
+    
     margin: 0;
     padding: 0;
 }
@@ -16,19 +20,19 @@
     position: relative;
     text-align: justify;
     left: 40px;
-    width: 880px;
-}
-.pos_justifyinsidebluebox {
-    position: relative;
-    text-align: justify;
-    left: 40px;
-    width: 800px;
+    width: 1085px;
 }
 a:link {
-    color: blue;
+    color: purple;
 }
 a:visited {
-    color: purple;
+    color: #007A00;
+}
+a:hover {
+    color: #66FF76;
+}
+a:active {
+    color:#66FF76;
 }
 .pos_right {
     position: relative;
@@ -40,7 +44,30 @@ a:visited {
     border: 0;
     overflow-y: hidden;
 }
-
 #corrections {
-    background-color:#ED7BAB;
+    background-color: #ED7BAB;
+}
+#header_iframe {
+    background-color: transparent;
+    border: 0px none transparent;
+    padding: 0px;
+    overflow: hidden;
+}
+.images {
+
+    width: 1090px;
+    height:340px;
+    border: 0px;
+    overflow-x: hidden; 
+
+}
+.menu {
+    width:735px;
+    height:110px;
+    border: 0px;
+}
+.footer {
+    width: 862px;
+    height: 170px;
+    border: 0px;
 }
