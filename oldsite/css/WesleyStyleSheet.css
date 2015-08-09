@@ -1,0 +1,46 @@
+﻿body {
+    background-color: #FDE9D9;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    position: relative;
+    width: 100%;
+}
+.left {
+    position: relative;
+    left: 10px;
+    width: 880px;
+}
+.pos_justify {
+    position: relative;
+    text-align: justify;
+    left: 40px;
+    width: 880px;
+}
+.pos_justifyinsidebluebox {
+    position: relative;
+    text-align: justify;
+    left: 40px;
+    width: 800px;
+}
+a:link {
+    color: blue;
+}
+a:visited {
+    color: purple;
+}
+.pos_right {
+    position: relative;
+    left: 10px;
+}
+.iframehead {
+    width: 1050px;
+    height: 500px;
+    border: 0;
+    overflow-y: hidden;
+}
+
+#corrections {
+    background-color:#ED7BAB;
+}

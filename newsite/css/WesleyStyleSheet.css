@@ -1,5 +1,5 @@
 ﻿body {
-    background-color: #EBC2FF;
+    background-color: #66A3FF;
     /*background-image: url("../images/mylittlepony.jpg");
     background-repeat: repeat-y;
     */
@@ -23,10 +23,16 @@
     width: 1085px;
 }
 a:link {
-    color: blue;
+    color: purple;
 }
 a:visited {
-    color: purple;
+    color: #007A00;
+}
+a:hover {
+    color: #66FF76;
+}
+a:active {
+    color:#66FF76;
 }
 .pos_right {
     position: relative;
@@ -46,4 +52,22 @@ a:visited {
     border: 0px none transparent;
     padding: 0px;
     overflow: hidden;
+}
+.images {
+
+    width: 1090px;
+    height:340px;
+    border: 0px;
+    overflow-x: hidden; 
+
+}
+.menu {
+    width:735px;
+    height:110px;
+    border: 0px;
+}
+.footer {
+    width: 862px;
+    height: 170px;
+    border: 0px;
 }
